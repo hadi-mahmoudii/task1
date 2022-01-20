@@ -1,0 +1,267 @@
+body {
+    margin: 15px 50px 15px 40px;
+    font-family: Iransans;
+    color: white;
+}
+
+ul {
+    
+    padding: 0px;
+}
+li {
+    margin-bottom: 10px;
+}
+@font-face {
+    font-family: Iransans;
+    src: url(fonts/IRANSansWeb.ttf);
+  }
+
+
+
+.right {
+
+    width: calc(22% - 20px);
+    float: right;
+    height: calc(100vh - 40px);
+   margin-right: 20px;
+    background-color: #4B63E7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.inside_right {
+    margin: 20px 40px 20px;
+    height: 100%;
+    width: 100%;
+
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #FF4342;
+    margin-top: 10px;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title_right {
+    display: inline;
+    
+}
+
+.menu {
+display: inline;
+margin-right: 20px;
+font-size: 14px;
+}
+.menu_div {
+    margin-top: 40px;
+}
+
+.left {
+    width: calc(76%);
+    height: calc(100vh - 40px);
+    float: left;
+    background-color: #4B63E7;
+    border-radius: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+   
+    
+}
+
+.title {
+    font-size: 55px;
+    margin: 0px;
+    
+  
+}
+.text {
+    
+    word-spacing: 2px;
+}
+.line-text {
+    width: 65%;
+    color: white;
+    padding-right: 18%;
+    
+    
+}
+.expline {
+    font-size: 60;
+}
+.socialmedia {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: #F2565D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    
+  }
+
+.buttondiv {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    direction: rtl;
+}
+
+
+.show_button {
+    width: 200px;
+    height: 45px;
+    
+    border-radius: 30px;
+    background-color: #FD5650;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.show_button_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    font-family: Iransans;
+    padding-right: 23px;
+}
+
+.ٰcv_button {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    border-radius: 30px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid white ;
+    margin-right: 15px;
+    
+
+}
+.cv_button_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Iransans;
+    padding-right: 23px;
+}
+.show_text ,.cv_text {
+    margin-right: 15px;
+    word-spacing: 3px;
+}
+.subtitle {
+    font-size: 14px;
+    color: #B7CAFC;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .inside_right {
+        margin-right: 15px;
+        font-size: 10px;
+    }
+    .dot {
+        margin: 3px 0 0 5px;
+        height: 25px;
+        width: 25px;
+        
+    }
+    .subtitle {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 600px){
+	.right {
+        width: 100%;
+        margin: 0 0 20px 0;
+        align-items: flex-start;
+     
+    }
+    .inside_right {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin: 10px 0 0 0;
+    }
+    .left {
+        width: 100%;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .title_right {
+        font-size: 35px;
+    }
+    .menu {
+        font-size: 15px;
+    }
+    .menu_div {
+        margin-top: 20px;
+        margin-bottom: 0;
+        
+    }
+    .dot {
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+        
+    }
+    .socialmedia {
+        justify-content: center;
+    }
+    .title {
+font-size: 26px;
+    }
+    .text {
+        font-size: 13px;
+       margin-top: 20px;
+    }
+    .show_button ,.ٰcv_button {
+        height: 35px;
+        width: 90%;
+        
+    }
+    .show_text,.cv_text {
+        font-size: 10px;
+        margin: 0 2px 0 0;
+
+    }
+    .cv_button_div, .show_button_div {
+      
+        padding: 4px;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
